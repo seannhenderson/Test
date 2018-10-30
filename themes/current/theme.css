@@ -1,0 +1,15 @@
+html, body {margin:0;}
+body {width:100%;height:100%;}
+body,td,th,caption {font-family:"Arial","Helvetica",sans-serif;color:slategrey;background-color:offwhite;}
+caption {font-weight:bold;}
+table.main {width:720px;height:100%;border:0;margin-left:auto;margin-right:auto;border-collapse:collapse;border-color:lightgrey;border-style:solid;border-width:1px;}
+table.main tr:first td.nav-column {width:25%;text-align:left;}
+table.main tr:first td:last {width:25%;}
+table.main td.nav-column ul {list-style-type:none;margin-left:0;padding-left:0;}
+table.main td.nav-column ul li {none;margin-left:2px;padding-left:0;}
+table.main a,table.main a:link,table.main a:visited {color:slategray;text-decoration:none;}
+table.main a:active,table.main a:hover {color:slategray;text-decoration:underline;}
+label {float:left;width:120px;border:0;text-align:right;}
+.regformSubmitBtnClass {margin-left:120px;}
+
+

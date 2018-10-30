@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>Form</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css" type="text/css" />
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="js/jquery.form.js"></script>
+		<script type="text/javascript" src="js/contact.js"></script>
+	</head>
+	<body>
+		<div id="wrap">
+			<h1>Form001</h1>
+			<form id="contactform" action="processForm.php" method="post">
+				<table>
+					<tr>
+						<td><label for="name">Some String:</label></td>
+						<td><input type="text" id="name" name="name" /></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><input type="submit" value="Send!" id="send" /></td>
+					</tr>
+				</table>
+			</form>
+			<div id="response"></div>
+		</div>
+	</body>
+</html>
